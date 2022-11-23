@@ -1,5 +1,5 @@
 import React from "react";
-import '../App/App.css';
+import './App.css';
 function useLocalStorage(itemName,initialValue){
     const [error,setError] = React.useState(false);
     const [loading,setLoanding] = React.useState(true);
